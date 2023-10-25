@@ -1,17 +1,34 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import java.net.StandardSocketOptions;
+
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Invio with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        /*int base = 10;
+        int altezza = 12;
+        int risultato = (x*y)/2;
 
-        // Press Ctrl+F5 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        System.out.println("Area: " + risultato);
 
-            // Press Alt+F5 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing F9.
-            System.out.println("i = " + i);
-        }
+       char a = 'a';
+       char b = 'b';
+       String ab = "" + a + b;
+
+       System.out.println(ab);
+
+        double x = 2.3;
+        double y = 3.8;
+        int sum = (int) (x + y);
+
+        System.out.println(sum);
+
+        char first = '@';
+        char second = '#';
+        int asciiSum = first + second;
+
+        System.out.println(asciiSum);
+
+
+         */
+
+
     }
 }
