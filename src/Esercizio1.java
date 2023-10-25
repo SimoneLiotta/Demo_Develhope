@@ -8,15 +8,6 @@ public class Esercizio1 {
 
         System.out.println("Area: " + risultato);
 
-
-
-
-
-
-
-
-        //System.out.println(i);
-
     }
 }
 
