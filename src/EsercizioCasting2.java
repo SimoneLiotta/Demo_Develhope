@@ -1,4 +1,4 @@
-public class Esercizio4 {
+public class EsercizioCasting2 {
     public static void main(String[] args) {
 
         char first = '[';

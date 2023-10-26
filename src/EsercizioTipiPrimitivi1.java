@@ -1,6 +1,4 @@
-import java.net.StandardSocketOptions;
-
-public class Esercizio1 {
+public class EsercizioTipiPrimitivi1 {
     public static void main(String[] args) {
 
         int base = 10;

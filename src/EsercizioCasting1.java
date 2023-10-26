@@ -1,4 +1,4 @@
-public class Esercizio3 {
+public class EsercizioCasting1 {
     public static void main(String[] args) {
 
         double x = 2.3;

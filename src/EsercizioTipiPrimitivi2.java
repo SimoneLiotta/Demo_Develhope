@@ -1,4 +1,4 @@
-public class Esercizio2 {
+public class EsercizioTipiPrimitivi2 {
     public static void main(String[] args) {
         char a = 'a';
         char b = 'b';
