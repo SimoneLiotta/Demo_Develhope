@@ -1,5 +1,4 @@
-public class Altro {
-
+public class EsercizioIfElse1 {
     public static void main(String[] args) {
 
         int i;
@@ -17,4 +16,3 @@ public class Altro {
         }
     }
 }
-
