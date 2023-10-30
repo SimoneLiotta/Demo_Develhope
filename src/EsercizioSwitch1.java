@@ -13,6 +13,7 @@ public class EsercizioSwitch1 {
             case 6 : return "sabato";
             case 7 : return "domenica";
             default: return "errore: il numero deve essere compreso tra 1 e 7";
+
         }
     }
 }
