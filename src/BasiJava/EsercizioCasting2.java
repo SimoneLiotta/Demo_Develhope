@@ -1,3 +1,5 @@
+package BasiJava;
+
 public class EsercizioCasting2 {
     public static void main(String[] args) {
 

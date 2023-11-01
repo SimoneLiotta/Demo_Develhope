@@ -1,3 +1,5 @@
+package BasiJava;
+
 public class EsercizioCicloFor1 {
     public static void main(String[] args) {
 

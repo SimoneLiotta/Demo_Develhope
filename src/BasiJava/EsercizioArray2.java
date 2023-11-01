@@ -1,3 +1,5 @@
+package BasiJava;
+
 public class EsercizioArray2 {
     public static void main(String[] args) {
         char [] arrayChar = riempiArray();

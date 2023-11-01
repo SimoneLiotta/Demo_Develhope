@@ -1,3 +1,5 @@
+package BasiJava;
+
 public class EsercizioArray1 {
     public static void main(String[] args) {
         int[] arrayInt = riempiArray();

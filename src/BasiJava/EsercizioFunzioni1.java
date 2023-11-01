@@ -1,3 +1,5 @@
+package BasiJava;
+
 public class EsercizioFunzioni1 {
     public static void main(String[] args) {
         int x = 15;

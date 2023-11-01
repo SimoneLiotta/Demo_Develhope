@@ -1,3 +1,5 @@
+package BasiJava;
+
 public class EsercizioArrayMultidimensionali2 {
     public static void main(String[] args) {
         //creiamo una matrice iniziale e la riempiamo col metodo riempiMatrix

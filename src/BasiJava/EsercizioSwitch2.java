@@ -1,3 +1,5 @@
+package BasiJava;
+
 public class EsercizioSwitch2 {
     public static void main(String[] args) {
     char carattere = '-';

@@ -1,6 +1,8 @@
+package BasiJava;
+
 public class EsercizioOperatoriAssegnazioni {
 
-    //è lo stesso di "EsercizioOperatoriAritmetici3" dato che l'avevo gia mandato a video!
+    //è lo stesso di "BasiJava.EsercizioOperatoriAritmetici3" dato che l'avevo gia mandato a video!
     public static void main(String[] args) {
         int x = 3;
         int y = 5;

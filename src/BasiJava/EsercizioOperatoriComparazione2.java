@@ -1,3 +1,5 @@
+package BasiJava;
+
 public class EsercizioOperatoriComparazione2 {
     public static void main(String[] args) {
         char primo = 'a';

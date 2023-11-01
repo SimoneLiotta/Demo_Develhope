@@ -1,3 +1,5 @@
+package BasiJava;
+
 public class EsercizioOperatoriAritmetici2 {
     public static void main(String[] args) {
         int x = 3;

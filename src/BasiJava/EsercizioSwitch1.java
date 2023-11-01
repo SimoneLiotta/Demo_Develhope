@@ -1,3 +1,5 @@
+package BasiJava;
+
 public class EsercizioSwitch1 {
     public static void main(String[] args) {
         int num = 7;

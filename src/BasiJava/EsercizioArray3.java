@@ -1,3 +1,5 @@
+package BasiJava;
+
 import java.util.Arrays;
 public class EsercizioArray3 {
     public static void main(String[] args) {
