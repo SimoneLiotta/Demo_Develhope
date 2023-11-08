@@ -9,11 +9,12 @@ public class Rettangolo extends Forma {
 
 
 
-    public Rettangolo(int base, int altezza, TipoForma tipo){
+    public Rettangolo(int base, int altezza){
 
-        super(tipo);
+
         this.base=base;
         this.altezza=altezza;
+        super.setTipo(TipoForma.RETTANGOLO);
     }
 
 

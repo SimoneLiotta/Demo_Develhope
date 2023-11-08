@@ -1,12 +1,10 @@
 package EreditarietaJava.EsercizioEnum1;
 
-enum TipoForma{
-    triangolo,
-    rettangolo,
-}
 public class Forma {
+
     TipoForma tipo;
-    public  Forma(TipoForma tipo){
+
+    public void setTipo(TipoForma tipo) {
         this.tipo = tipo;
     }
 
