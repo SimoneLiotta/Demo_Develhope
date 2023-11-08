@@ -7,5 +7,5 @@ public abstract class Forma {
         this.nome = nome;
 
     }
-    public abstract void calcolaArea();
+    public abstract double calcolaArea();
 }

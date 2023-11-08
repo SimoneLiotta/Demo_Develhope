@@ -6,8 +6,9 @@ public class Main {
         Rettangolo rettangolo = new Rettangolo("rettangolo", 3, 12);
         Triangolo triangolo = new Triangolo("triangolo", 6,9);
 
-        rettangolo.calcolaArea();
-        triangolo.calcolaArea();
+        System.out.println("L'area del " + rettangolo.nome + " è " + rettangolo.calcolaArea());
+        System.out.println("L'area del " + triangolo.nome + " è " + triangolo.calcolaArea());
+
 
     }
 }

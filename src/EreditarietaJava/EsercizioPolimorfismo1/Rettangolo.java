@@ -12,9 +12,9 @@ public class Rettangolo extends Forma {
     }
 
        @Override
-    public void calcolaArea() {
-    super.calcolaArea();
-        System.out.println(base*altezza);
+    public double calcolaArea() {
+
+        return base*altezza;
 
     }
 }

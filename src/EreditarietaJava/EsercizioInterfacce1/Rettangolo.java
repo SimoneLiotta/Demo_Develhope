@@ -13,7 +13,7 @@ public class Rettangolo implements Forma{
     }
 
     @Override
-    public void calcolaArea() {
-        System.out.println("L'area del " + nome + " é " + base*altezza);
+    public double calcolaArea() {
+        return base*altezza;
     }
 }

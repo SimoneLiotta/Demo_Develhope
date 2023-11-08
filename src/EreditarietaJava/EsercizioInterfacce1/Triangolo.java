@@ -12,7 +12,7 @@ public class Triangolo implements Forma{
         this.altezza = altezza;
     }
     @Override
-    public void calcolaArea() {
-        System.out.println("L'area del " + nome + " é " + (base*altezza)/2);
+    public double calcolaArea() {
+        return (base*altezza)/2 ;
     }
 }

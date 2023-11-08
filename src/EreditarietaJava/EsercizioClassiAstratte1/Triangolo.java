@@ -10,8 +10,8 @@ int altezza;
     }
 
     @Override
-    public void calcolaArea() {
+    public double calcolaArea() {
 
-        System.out.println("L'area del " + nome + " è " + (base*altezza)/2);
+        return (base * altezza) /2;
     }
 }

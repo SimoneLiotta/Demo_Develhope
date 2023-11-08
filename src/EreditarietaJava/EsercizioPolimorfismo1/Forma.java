@@ -7,7 +7,7 @@ public class Forma {
         this.nome = nome;
 
     }
-    public void calcolaArea(){
-        System.out.print("L'area del " + nome + " é ");
+    public double calcolaArea(){
+        return 0;
     }
 }

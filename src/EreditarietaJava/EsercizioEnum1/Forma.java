@@ -10,7 +10,7 @@ public class Forma {
         this.tipo = tipo;
     }
 
-    public void calcolaArea(){
-        System.out.print("L'area del " + tipo + " è ");
+    public double calcolaArea(){
+        return 0;
     }
 }

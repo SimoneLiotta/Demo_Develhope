@@ -12,8 +12,8 @@ int altezza;
     }
 
     @Override
-    public void calcolaArea() {
-        super.calcolaArea();
-        System.out.print((base*altezza)/2);
+    public double calcolaArea() {
+
+        return (base*altezza)/2 ;
     }
 }

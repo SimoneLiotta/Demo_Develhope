@@ -12,8 +12,8 @@ public class Rettangolo extends Forma {
     }
 
        @Override
-    public void calcolaArea() {
+    public double calcolaArea() {
 
-        System.out.println("L'area del " + nome + " è " + base*altezza);
+        return base*altezza;
     }
 }
