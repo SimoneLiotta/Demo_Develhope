@@ -1,6 +1,6 @@
-package EreditarietaJava.EserciziEreditarieta3;
+package EreditarietaJava.EsercizioEreditarieta2;
 
-public class Rettangolo extends Forma {
+public class Rettangolo extends Forma{
 
     int base;
     int altezza;

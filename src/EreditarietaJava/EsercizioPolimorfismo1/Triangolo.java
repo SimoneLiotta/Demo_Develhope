@@ -1,4 +1,4 @@
-package EreditarietaJava.EserciziEreditarieta3;
+package EreditarietaJava.EsercizioPolimorfismo1;
 
 public class Triangolo extends Forma {
 int base;

@@ -1,6 +1,6 @@
-package EreditarietaJava.EserciziEreditarieta2;
+package EreditarietaJava.EsercizioPolimorfismo1;
 
-public class Rettangolo extends Forma{
+public class Rettangolo extends Forma {
 
     int base;
     int altezza;

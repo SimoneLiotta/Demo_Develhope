@@ -1,4 +1,4 @@
-package EreditarietaJava.EserciziEreditarieta1;
+package EreditarietaJava.EsercizioEreditarieta1;
 
 public class Gatto extends Animale {
     public Gatto(String nome) {

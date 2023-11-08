@@ -1,4 +1,4 @@
-package EreditarietaJava.EserciziEreditarieta2;
+package EreditarietaJava.EsercizioPolimorfismo1;
 
 public class Forma {
     String nome;
