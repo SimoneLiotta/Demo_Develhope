@@ -1,12 +1,9 @@
 package Java1.EreditarietaJava.EsercizioStringBuilder2;
-
 public class Main {
     public static void main(String[] args) {
         String testo = "Ma che bel castello marcondirondirondello";
-        int index = 40;
+        int index = 18;
         System.out.println(covertiInUnicode(testo,index));
-        System.out.println(testo.length());
-
     }
    public static String covertiInUnicode(String testo, int index) {
 
