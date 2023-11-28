@@ -1,26 +1,27 @@
 package Java2.DateTesting;
 
+import java.time.DayOfWeek;
+import java.time.Month;
 import java.time.OffsetDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
+import java.util.Locale;
 
 public class EsercizioDate3 {
     public static void main(String[] args) {
         OffsetDateTime data = OffsetDateTime.parse("2023-03-01T13:00:00Z");
+
         System.out.println(data);
 
-        String ottieniAnno = data.format(DateTimeFormatter.ofPattern("yyyy"));
-        System.out.println("Anno: " + ottieniAnno);
-        String ottieniMese = data.format(DateTimeFormatter.ofPattern("MMMM"));
-        System.out.println("Mese: " + ottieniMese);
-        String ottieniGiorno = data.format(DateTimeFormatter.ofPattern("dd"));
-        System.out.println("Giorno: " + ottieniGiorno);
-        String ottieniGiornoDellaSettimana = data.format(DateTimeFormatter.ofPattern("EEEE"));
-        System.out.println("Giorno della settimana: " + ottieniGiornoDellaSettimana);
+        int anno = data.getYear();
+        System.out.println("Anno: " + anno);
+        Month mese = data.getMonth();
+        System.out.println("Mese: " + mese);
+        int giorno = data.getDayOfMonth();
+        System.out.println("Giorno: " + giorno);
+        DayOfWeek giornoDellaSettimana = data.getDayOfWeek();
+        System.out.println("Giorno della settimana: " + giornoDellaSettimana);
 
-        System.out.println("Fusioneeee: " + ottieniGiornoDellaSettimana + ", " + ottieniGiorno + "/" + ottieniMese + "/" + ottieniAnno);
 
-        String fusioneSenzaCasini = data.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL));
-        System.out.println(fusioneSenzaCasini);
     }
 }
