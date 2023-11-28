@@ -3,7 +3,6 @@ package Java2.DateTesting.EsercizioTesting2;
 import java.time.OffsetDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
-import java.util.Date;
 
 public class Main {
 
