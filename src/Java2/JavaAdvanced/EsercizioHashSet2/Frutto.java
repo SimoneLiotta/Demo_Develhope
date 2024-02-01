@@ -6,6 +6,5 @@ public class Frutto {
     public Frutto(String nome){
         this.nome=nome;
     }
-
 }
 

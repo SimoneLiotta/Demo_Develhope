@@ -1,9 +1,9 @@
 package Java2.OpMatDesignPattern.EsercizioFactoryPatterns1;
 
 public class Square implements Shape{
-    @Override
-    public void draw() {
-        System.out.println("Disegna un quadrato");
 
+    @Override
+    public double calcolaArea() {
+        return 0;
     }
 }

@@ -2,9 +2,13 @@ package Java2.OpMatDesignPattern.EsercizioFactoryPatterns1;
 
 public class Main {
     public static void main(String[] args) {
-        ShapeType type = ShapeType.SQUARE;
-        Shape shape = ShapeFactory.getShape(type);
-        shape.draw();
+
+        ShapeFactory shapeFactory = new ShapeFactory();
+
+        Rectangle rectangle = (Rectangle) shapeFactory.getShape(ShapeType.RECTANGLE);
+        rectangle.setAltezza(12);
+        rectangle.setBase(3);
+        System.out.println(rectangle.calcolaArea());
 
     }
 }

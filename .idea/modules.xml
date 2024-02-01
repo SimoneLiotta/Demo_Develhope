@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Demo_Develhope.iml" filepath="$PROJECT_DIR$/Demo_Develhope.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DevelhopeExerciseJava.iml" filepath="$PROJECT_DIR$/DevelhopeExerciseJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ProgettiDevelhope/ProgettiDevelhope.iml" filepath="$PROJECT_DIR$/../ProgettiDevelhope/ProgettiDevelhope.iml" />
     </modules>
   </component>
 </project>

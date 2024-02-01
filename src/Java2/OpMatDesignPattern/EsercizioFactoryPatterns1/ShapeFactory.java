@@ -1,7 +1,8 @@
 package Java2.OpMatDesignPattern.EsercizioFactoryPatterns1;
 
 public class ShapeFactory {
-    public static Shape getShape(ShapeType type){
+    public  Shape getShape(ShapeType type){
+
         Shape shape = switch (type){
             case CIRCLE -> new Circle();
             case SQUARE -> new Square();

@@ -15,11 +15,11 @@ public class EsercizioHashSet1 {
 
     public static Set<String> creaHashset() {
 
-        Set<String> hashSet = new HashSet<>();
+        HashSet<String> hashSet = new HashSet<>();
         hashSet.add("mela");
         hashSet.add("pera");
         hashSet.add("ciliegia");
         hashSet.add("banana");
-        return (HashSet<String>) hashSet;
+        return hashSet;
     }
 }
